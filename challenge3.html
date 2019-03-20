@@ -5,7 +5,7 @@
   <title>Challenge Three</title>
     <style>
 
-    .errormsg {
+    .errorMsg {
         /*font: Use a cool Google font*/
       color:red;
       display:none; }
@@ -24,11 +24,11 @@
                 document.getElementById("nameError").style.display = "none";}
 
       if (y.value.length == 0)
-        {document.getElementById("addressError").style.display = "block"; y = 0}
+        {document.getElementById("addressError").style.display = "block"; y = 0;}
       else {document.getElementById("addressError").style.display = "none"; }
 
         if (x == 0 || y == 0){
-            alert("FAILED!!!")
+            // alert("FAILED!!!")
             return false;
         }
       }
